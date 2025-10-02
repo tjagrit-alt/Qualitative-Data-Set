@@ -1,0 +1,20 @@
+Table 1: Identity Framework Performance in Rural IoT Simulations
+Framework	Latency (ms)	Scalability (Tx/sec)	Energy (mJ)	Interoperability (0-10)	Failure Rate (%)
+Traditional PKI	720	250	18	5.5	20
+Blockchain-SSI	480	850	14	7.5	12
+Edge-Hybrid	380	1,050	11	8.5	6
+Proposed (SSI + Edge)	320	1,200	10	9.0	4
+
+Table 2: Privacy Technique Metrics in Sensitive IoT Applications
+Technique	Leakage (Entropy Bits)	False Acceptance (%)	Overhead (%)	Suitability (Healthcare/Finance, 0-10)
+Password-Based	14	4.5	12	4/5
+Biometric MFA	6	0.08	28	8/7
+ABE	4.5	0.4	22	9/8.5
+Homomorphic + ZKP	2.5	0.04	18	9.5/9
+
+Table 3: PQC-ZTA Integration Performance in Smart City Simulations
+Model	Quantum Resistance (%)	5G Latency (ms)	Access Reduction (%)	6G Efficiency (Tx/sec)
+ECC + Traditional	15	320	12	600
+PQC Alone	92	240	22	900
+ZTA Alone	75	200	32	1,000
+PQC + ZTA	96	170	38	1,600
